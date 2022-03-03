@@ -1,0 +1,12 @@
+syntax = "proto3";
+package eu.welcome.protobuf.model.common;
+
+option optimize_for = SPEED;
+
+enum Country {
+  UKRAINE = 0;
+  HUNGARY = 1;
+  POLAND = 2;
+  ROMANIA = 3;
+  MOLDOVA = 4;
+}

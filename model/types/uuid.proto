@@ -1,0 +1,8 @@
+syntax = "proto3";
+package eu.welcome.protobuf.model.types;
+
+option optimize_for = SPEED;
+
+message UUID {
+  string value = 1;
+}
